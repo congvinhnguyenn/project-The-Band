@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/attribution.js">
+    <script src="https://kit.fontawesome.com/739b70274c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <ul id="nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">Band</a></li>
+                <li><a href="">Tour</a></li>
+                <li><a href="">Contact</a></li>
+                <li>
+                    <a href="">
+                        More
+                        <i class="arrow-down-btn fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="">Merchandise</a></li>
+                        <li><a href="">Extras</a></li>
+                        <li><a href="">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="search-btn">
+                <i class="search-icon fas fa-search"></i>
+            </div>
+        </div>
+
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading">Chicago</h2>
+                <p class="text-des">Thank you, Chicago - A night we won't forget.</p>
+            </div>
+        </div>
+
+        <div id="content">
+        <!-- About -->
+        <div class="content-section">
+            <h2 class="content-heading">THE BAND</h2>
+            <p class="content-slogan">We love music</p>
+            <p class="content-about">
+                We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="band-member">
+                <div class="member-list">
+                    <p class="member-name">Name</p>
+                    <img src="assets/img/Band members/Bandmember.png" alt="Name" class="member-img">
+                </div>
+                <div class="member-list">
+                    <p class="member-name">Name</p>
+                    <img src="assets/img/Band members/Bandmember.png" alt="Name" class="member-img">
+                </div>
+                <div class="member-list">
+                    <p class="member-name">Name</p>
+                    <img src="assets/img/Band members/Bandmember.png" alt="Name" class="member-img">
+                </div>
+            </div>
+        </div>
+        <!-- End About-->
+
+        <!-- Tour -->
+        <div class="tour-ticket">
+            <div class="content-section">
+                <h2 class="content-heading white-text">TOUR DATES</h2>
+                <p class="content-slogan white-text">Remember to book your tickets!</p>
+                <ul class="ticket-show">
+                    <li>September<span class="sold-out">Sold out</span></li>
+                    <li>October<span class="sold-out">Sold out</span></li>
+                    <li>November<span class="quantity">3</span></li>
+                </ul>
+
+                <!--Place-->
+                <div class="place-list">
+                    <div class="place-item">
+                        <img src="assets/img/Places/Newyork.png" alt="New York" class="place-img">
+                        <div class="place-body">
+                            <h3 class="place-heading">New York</h3>
+                            <p class="place-time">Fri 27 Nov 2016</p>
+                            <p class="place-des">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="buy-btn js-buy-btn">Buy Tickets</button>
+                        </div>
+                 </div>
+                    <div class="place-item">
+                        <img src="assets/img/Places/Paris.png" alt="New York" class="place-img">
+                        <div class="place-body">
+                            <h3 class="place-heading">Paris</h3>
+                            <p class="place-time">Sat 28 Nov 2016</p>
+                            <p class="place-des">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="buy-btn js-buy-btn">Buy Tickets</button>
+                        </div>
+                        </div>
+                        <div class="place-item">
+                            <img src="assets/img/Places/Sanfran.png" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">San Francisco</h3>
+                                <p class="place-time">Sun 29 Nov 2016</p>
+                                <p class="place-des">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="buy-btn js-buy-btn">Buy Tickets</button>
+                            </div>
+                        </div>
+                    </div>
+                <!--End Place-->
+             </div>
+            </div>
+        <!-- End Tour -->
+
+        <!-- Contact -->
+            <div class="content-section">
+                <h2 class="content-heading">CONTACT</h2>
+                <p class="content-slogan">Fan? Drop a note!</p>
+            </div>
+        </div>
+
+        <div id="footer"></div>
+
+    </div>
+    
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <header class="modal-header">
+                <i class="modal-bag-icon fas fa-shopping-bag"></i>
+                Tickets
+            </header>
+
+            <div class="modal-body">
+                <label for="quantity-ticket" class="modal-label">
+                    <i class="fas fa-shopping-cart"></i>
+                    Tickets, $15 per person
+                </label>
+                <input type="text" id="quantity-ticket" class="modal-input" placeholder="How many ?">
+
+                <label for="email-receive" class="modal-label">
+                    <i class="fas fa-user"></i>
+                    Send To
+                </label>
+                <input type="email" id="email-receive" class="modal-input" placeholder="Enter email">
+
+                <button id="buy-tickets">Pay
+                    <i class="pay-btn fas fa-check"></i>
+                </button>
+            </div>
+            <footer class="modal-footer">
+                <p class="modal-help">Need <a href="#">help ?</a></p>
+            </footer>
+        </div>
+    </div>
+
+    <script>
+        const buybtns = document.querySelectorAll('.js-buy-btn')
+        const modal = document.querySelector('.js-modal')
+        const modalContainer = document.querySelector('.js-modal-container')
+        const modalClose = document.querySelector('.js-modal-close')
+
+        function showModalTickets() {
+            modal.classList.add('open')
+        }
+
+        function hideModalTickets() {
+            modal.classList.remove('open')
+        }
+
+        for (const buybtn of buybtns) {
+            buybtn.addEventListener('click', showModalTickets)
+        }
+
+        modalClose.addEventListener('click', hideModalTickets)
+
+        modal.addEventListener('click', hideModalTickets)
+
+        modalContainer.addEventListener('click', function (event) {
+            event.stopPropagation()
+        })
+    </script>
+
+</body>
+
+</html>
